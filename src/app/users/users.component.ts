@@ -44,7 +44,7 @@ export class UsersComponent implements OnInit {
     { name: "amir", phone: "0123456789" }, */
     { id: 19, name: "Oussema", phone: "0123456789" }
   ];
-  searchName: String;
+  searchTerm: string;
   userProfil: any;
   constructor(
     private route: ActivatedRoute,
