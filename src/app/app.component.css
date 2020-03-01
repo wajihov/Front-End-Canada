@@ -1,0 +1,21 @@
+.content {
+    background-image: url(./../assets/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #D5D4D6;
+    text-align: center;
+    padding-top: 50px;
+}
+
+@font-face {
+    font-family: "Name of your font";
+    src: url(../../src/assets/fonts/brandon_bld-webfont.woff);
+}
+* {
+font-family: "Name of your font";
+}

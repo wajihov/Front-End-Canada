@@ -1,0 +1,46 @@
+.myContent {
+    /* border: 5px solid blue; */
+    background-color: white;
+    /* padding: 100px; */
+    height: 250px;
+    width: 400px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: #F8F8F8;
+}
+
+.myNav {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #F04847;
+}
+
+.myImg {
+    border: 1px solid #F04847;
+    padding: 15px;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 29%;
+}
+
+.myInformation {
+    padding-left: 40px;
+    margin-top: 60px;
+    color: #C3C9CF;
+}
+.myIcon{
+    display: inline-block;
+    zoom: 1;
+    /* display*: inline; */ /* ie hack */
+    /* background-color: #f0f; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.MyImg{
+    margin: 10px;
+}

@@ -1,0 +1,42 @@
+<div>
+    <!-- <h1>My Adress Book</h1> -->
+    <div class="container myStyle">
+        <div class="content">
+            <nav class="navbar myNavbar"></nav>
+            <div>
+                <div id="teaser-input">
+                    <div class="addImg left-addon">
+                        <div class="form-group">
+                            <img src='../../assets/icons/loupe.png' />
+                            <!-- <input type="text" class="form-control" placeholder="SEARCH" id="myInput"
+                                [(ngModel)]="searchName"> -->
+                            <input type="text" class="form-control" placeholder="SEARCH" id="myInput"/>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- <div class="profile col-lg-3" *ngFor="let item of profils2 | fresh:searchName; index as i "> -->
+                <div class="profile col-lg-3" *ngFor="let item of profils2 ; index as i ">
+                <div class="positionImg">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="../../assets/icons/profile.png" class="rounded-circle" alt=""
+                                style="border: 1px solid red;">
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <a routerLink="/profilUser/{{item?.id}}">{{item.name}}</a>
+                            </div>
+                            <div class="row">
+                                {{item.phone}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
